@@ -11,7 +11,7 @@ const ComponentName: React.FC = () => {
 
     const [todos, setTodos] = useState<DataType[]>([])
     const [isLoading, setIsLoading] = useState(false);
-    const [isError, setIsError] = useState<string | null>()
+    const [isError, setIsError] = useState<string | null>(null)
 
     const url: string = 'https://jsonplaceholder.typicode.com/todos'
 
